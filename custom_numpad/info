@@ -1,0 +1,125 @@
+{
+  "uuid": "5d3f4bc78ed5125eb943897deee1c100",
+  "path": "Offline/custom_numpad",
+  "name": "custom_numpad",
+  "content": "Custom the numpad for learning(?)",
+  "created_at": "2021-06-17 01:47:00",
+  "updated_at": "2021-06-17 13:42:40",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d6640439cd68d7a4739aceebca3f10a2",
+      "title": "Extended Charlieplexing Matrix button - full button",
+      "description": "2*n Dioides for n**2 buttons",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "506481fbe1ad47c6b20f0b1e0e7dcc55": 10,
+        "80a12ae60f954d05b32310197b97dfad": 25,
+        "d5ba504a40f540f0b8661c95fe6fc590": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Cherry MX",
+          25,
+          "CHERRY MX 1U",
+          "SW13,SW9,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW10,SW11,SW12,SW1,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24,SW25",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "31849d0e3cba485aae191b5120ca095e",
+            "uuid": "80a12ae60f954d05b32310197b97dfad"
+          }
+        ],
+        [
+          "1N4148DO35-7",
+          10,
+          "DO35-7",
+          "D8,D9,D10,D3,D11,D2,D4,D5,D6,D7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "44856a57bd594eb499525ea6d635ae59",
+            "uuid": "506481fbe1ad47c6b20f0b1e0e7dcc55"
+          }
+        ],
+        [
+          "Digispark",
+          1,
+          "DIGISPARK",
+          "U1",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "HiLetgo",
+            "BOM_Manufacturer Part": "IMP1117AD33/T",
+            "BOM_Supplier Part": "C72865",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "d7e6c8cce9ea47599a999962b464f2f1",
+            "uuid": "d5ba504a40f540f0b8661c95fe6fc590"
+          }
+        ]
+      ],
+      "updateTime": 1623911419,
+      "createTime": 1623903958,
+      "histories": [],
+      "created_at": "2021-06-17 11:25:58",
+      "updated_at": "2021-06-17 13:30:19"
+    },
+    {
+      "uuid": "dd57fd019f572e1e4ea83398813c247e",
+      "puuid": "5d3f4bc78ed5125eb943897deee1c100",
+      "title": "PCB_custom_numpad",
+      "filename": "PCB_custom_numpad.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "2fcbf6eaecca4bb28facf7db96451d5f": 25,
+        "44856a57bd594eb499525ea6d635ae59": 10
+      },
+      "BOM": [],
+      "updateTime": 1623874209,
+      "createTime": 1623872259,
+      "histories": [],
+      "created_at": "2021-06-17 02:37:39",
+      "updated_at": "2021-06-17 03:10:09"
+    },
+    {
+      "uuid": "2f52f084f3e16e8bf81e83ff639f8805",
+      "puuid": "5d3f4bc78ed5125eb943897deee1c100",
+      "title": "PCB_custom_numpad_2",
+      "filename": "PCB_custom_numpad_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "31849d0e3cba485aae191b5120ca095e": 23,
+        "44856a57bd594eb499525ea6d635ae59": 8,
+        "ee45c3af6f664b0cbf2307cc71d24263": 1,
+        "93003f6bb8084243a4c870aaef637f77": 1
+      },
+      "BOM": [],
+      "updateTime": 1623912160,
+      "createTime": 1623875084,
+      "histories": [],
+      "created_at": "2021-06-17 03:24:44",
+      "updated_at": "2021-06-17 13:42:40"
+    }
+  ],
+  "sort": [
+    "d6640439cd68d7a4739aceebca3f10a2",
+    "6e0b5e7c06856f6cca781b8c2b281d56"
+  ],
+  "title": "custom_numpad",
+  "foldername": "custom_numpad",
+  "schfilename": "custom_numpad.json",
+  "schfilemtime": 1623911419905
+}
